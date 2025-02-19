@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "main": "index.js",
   "scripts": {
-    "run:dev": "python main.py"
+    "init:env:dev": "Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process & .venv/Scripts/Activate.ps1",
+    "install:deps": "pip install -r requirements.txt",
+    "run:dev": "flask run"
   },
   "repository": {
     "type": "git",

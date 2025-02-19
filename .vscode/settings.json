@@ -1,6 +1,13 @@
 {
   "editor.formatOnPaste": false,
   "editor.formatOnSave": true,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": false,
+  "explorer.fileNesting.patterns": {
+    "~Git": ".gitignore",
+    "~NPM": "package*",
+    "~Python": "app.py, requirements*"
+  },
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter"
   }
