@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "main": "index.js",
   "scripts": {
-    "init:env:dev": "Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process & .venv/Scripts/Activate.ps1",
+    "init:env:dev": "Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process && .venv/Scripts/Activate.ps1",
     "install:deps": "pip install -r requirements.txt",
     "run:dev": "flask run"
   },
