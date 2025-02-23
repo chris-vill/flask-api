@@ -7,7 +7,7 @@
     "~Docker": "docker*",
     "~Git": ".gitignore",
     "~NPM": "package*",
-    "~Python": "app.py, requirements*"
+    "~Python": "requirements*, .flaskenv"
   },
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter"
