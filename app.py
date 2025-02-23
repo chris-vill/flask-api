@@ -3,6 +3,7 @@ TODO
 1. fix formatting
 2. fix location of app.py
 3. fix auto initializing of venv when opening a terminal
+4. docker-compose -f <file> -f <file for overriding>
 """
 
 from flask import Flask, request
@@ -24,7 +25,9 @@ stores = [
 
 @app.get("/stores")
 def get_stores():
-    return {"stores": stores}, 200
+    data = {"stores": stores}
+    print("haha")
+    return data, 200
 
 
 @app.post("/stores")

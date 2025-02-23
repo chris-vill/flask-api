@@ -4,6 +4,7 @@
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.expand": false,
   "explorer.fileNesting.patterns": {
+    "~Docker": "docker*",
     "~Git": ".gitignore",
     "~NPM": "package*",
     "~Python": "app.py, requirements*"
